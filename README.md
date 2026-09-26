@@ -36,9 +36,9 @@ Non la demo: il momento in cui la demo si rompe.
 
 Nel mio Actor su Apify, una career page che va in errore non viene **mai** riportata come *«tutto rimosso»* — una rimozione falsa farebbe chiudere posizioni ancora aperte. Quando il tetto di spesa si esaurisce a metà corsa, le righe non pagate **non vengono segnate come viste**, così la corsa dopo le ritrova invece di perderle per sempre.
 
-Il progetto di cui vado più fiero ha dato un **risultato negativo**: un motore di backtest su 38.225 partite di calcio e vent'anni di quote reali, 19 strategie, 291.248 scommesse simulate, con holdout guardato una volta sola e un test automatico che riscrive i risultati futuri per dimostrare che nessuna feature passata si muove. Nessuna strategia batte il mercato. L'ho scritto nella documentazione, in grassetto.
+Il progetto che lo riassume è pubblico: **[Greenlie](https://github.com/Andynet1971/greenlie)**. Il monitoraggio del mio Actor era verde tutti i giorni, eppure sei esecuzioni su sette degli utenti finivano in timeout. Greenlie è una status page open source che oltre a *«risponde?»* chiede *«risponde come al solito?»* — TypeScript strict, test con la copertura imposta dalla CI, Docker, e una [demo dal vivo](https://greenlie.18-159-116-161.sslip.io) su AWS che sorveglia i prodotti qui sopra.
 
-*Un motore che ti dice di no è più utile di uno che ti dice quello che vuoi sentire.*
+*Un monitoraggio verde non è la prova che qualcosa funzioni.*
 
 ---
 
